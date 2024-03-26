@@ -1,0 +1,13 @@
+.actions {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 10px 19px;
+}
+/* .actions > * + * {
+  margin: 0 0 0 13px;
+} */
+
+.actionsItem:not(:last-child) {
+  margin-right: 26px;
+}

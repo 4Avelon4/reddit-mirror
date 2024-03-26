@@ -1,0 +1,17 @@
+.menuDroopdown {
+  position: absolute;
+  background-color: var(--white);
+}
+
+.closeButton {
+  background-color: var(--greyD9);
+  padding: 12px 23px;
+  border-radius: 0 0 3px 3px;
+  width: 100%;
+}
+
+@media all and (min-width: 1540px) {
+  .closeButton {
+    display: none;
+  }
+}

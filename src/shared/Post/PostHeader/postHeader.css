@@ -1,0 +1,16 @@
+.postControls {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.marginRight {
+  margin-right: 20px;
+}
+
+@media all and (min-width: 1024px) {
+  .postControls {
+    order: 3;
+    flex: 0 0;
+  }
+}

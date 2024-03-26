@@ -1,0 +1,7 @@
+.controlsList {
+  display: flex;
+}
+
+.controlsItem:not(:last-child) {
+  margin-right: 27px;
+}
